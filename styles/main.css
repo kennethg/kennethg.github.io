@@ -569,8 +569,8 @@ body{
 
 .home .subTitle{
     position: relative;
-    top: -1%;
-    right: -26%;
+    top: 0%;
+    right: -60%;
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     color: white;
