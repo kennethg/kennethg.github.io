@@ -18,7 +18,7 @@
             let lengthCode = enterCode.length
             lengthCode--
             document.querySelector(`.fields .c${lengthCode} .numberfield`).classList.add('active');
-            document.querySelector('.textContainer .codeText').innerHTML = `<strong>Il faut entrer un code...</strong>`;
+            document.querySelector('.textContainer .codeText').innerHTML = `<strong>Vul de code in...</strong>`;
             if (lengthCode == 2) {
                 // Check if the code is correct.
                 if (enterCode == pin) {
